@@ -123,9 +123,9 @@ export default function Page() {
             <motion.h1 initial={{ opacity: 0, y: 10 }} animate={{ opacity: 1, y: 0 }} transition={{ duration: 0.6 }} className="text-3xl md:text-5xl font-semibold leading-tight">
               Videography & Automations that get results
             </motion.h1>
-            <p className="mt-4 text-gray-600 dark:text-gray-300">
-              Krrish — your go-to freelancer. I shoot, edit, and build AI systems that turn views into booked calls and payments.
-            </p>
+            <p className="mt-4 text-black dark:text-white">
+  Krrish — your go-to freelancer. I shoot, edit, and build AI systems that turn views into booked calls and payments.
+</p>
             <div className="mt-6 flex flex-wrap items-center gap-3">
               <a href={LINKS.calendly} target="_blank" rel="noreferrer">
                 <Button size="lg" className="gap-2">
@@ -222,9 +222,9 @@ export default function Page() {
         <SectionTitle label="What clients say" kicker="Testimonials" />
         <div className="grid md:grid-cols-3 gap-6">
           {[
-            { quote: "Krrish didn’t just edit—he engineered retention. Our reels finally convert.", name: "Founder, Fitness Brand (Toronto)" },
-            { quote: "From chaotic ops to an AI-driven pipeline that books calls while we sleep.", name: "Agency Owner (Canada)" },
-            { quote: "The shoot was efficient, the cut was tight, and results were obvious in a week.", name: "Local Cafe Owner (GTA)" },
+            { quote: "Krrish didn’t just edit—he engineered retention. Our reels finally convert.", name: "Founder, Handld (Toronto)" },
+            { quote: "The videos gives the feels of exactly what we had in mind, and best part is- it's coverting.", name: "Muscleblaze (India)" },
+            { quote: "The shoot was efficient, the cut was tight, and editing was execptional.", name: "BigSix Media (Toronto)" },
           ].map((t, i) => (
             <Card key={i} className="rounded-2xl">
               <CardContent className="pt-5">
