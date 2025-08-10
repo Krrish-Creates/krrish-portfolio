@@ -117,13 +117,13 @@ export default function Page() {
       </header>
 
       {/* Hero */}
-      <section className="border-b" style={{ background: "#FCF7F8" }}>
+      <section className="border-b bg-[#FCF7F8] dark:bg-black">
         <div className="max-w-6xl mx-auto px-4 py-16 md:py-24 grid md:grid-cols-2 gap-10 items-center">
           <div>
-            <motion.h1 initial={{ opacity: 0, y: 10 }} animate={{ opacity: 1, y: 0 }} transition={{ duration: 0.6 }} className="text-3xl md:text-5xl font-semibold leading-tight">
+            <motion.h1 initial={{ opacity: 0, y: 10 }} animate={{ opacity: 1, y: 0 }} transition={{ duration: 0.6 }} className="text-3xl md:text-5xl font-semibold leading-tight text-black dark:text-white">
               Videography & Automations that get results
             </motion.h1>
-            <p className="mt-4 text-black dark:text-white">
+            <p className="mt-4 text-gray-600 dark:text-gray-200">
   Krrish — your go-to freelancer. I shoot, edit, and build AI systems that turn views into booked calls and payments.
 </p>
             <div className="mt-6 flex flex-wrap items-center gap-3">
